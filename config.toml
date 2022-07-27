@@ -2,3 +2,6 @@ baseURL = "https://esoyke.github.io/newjam"
 languageCode = "en-us"
 title = "NewJAM"
 theme = "ananke"
+
+[outputs]
+    home = ["HTML", "JSON"]
