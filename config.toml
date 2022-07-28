@@ -1,4 +1,5 @@
-baseURL = "https://esoyke.github.io/newjam"
+# baseURL = "https://esoyke.github.io/newjam"
+baseURL = "https://62e298ad87a9611ecd510942--cool-griffin-b0fd72.netlify.app"
 languageCode = "en-us"
 title = "NewJAM"
 theme = "ananke"
