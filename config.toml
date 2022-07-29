@@ -2,7 +2,7 @@
 baseURL = "https://cool-griffin-b0fd72.netlify.app"
 languageCode = "en-us"
 title = "NewJAM"
-theme = "ananke"
+theme = "tale"
 
 [outputs]
     home = ["HTML", "JSON"]
