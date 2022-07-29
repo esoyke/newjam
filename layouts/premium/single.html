@@ -1,9 +1,4 @@
----
-title: "Premium"
-date: 2022-07-28T11:43:08-04:00
-draft: true
----
-<!-- Adding the matter above got rid of the error "plain HTML documents not supported" -->
+{{ define "main" }}
 
 <style media="screen">
     #signin {
@@ -32,7 +27,10 @@ draft: true
 <main>
 	<div class="post">
         <!-- <small>My own custom default single.html template</small> -->
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
 
+		{{ partial "single/header.html" . }}
 
 		<div class="premium-content">
 			<h2 style="test-align: center">Sign in to view premium content.</h2>
@@ -42,6 +40,7 @@ draft: true
 				<button type="submit" name="button" style="cursor: pointer">Sign In</button>
 			</form>
 		</div>
+		{{ partial "single/footer.html" . }}
 	</div>
 
 	<div class="pagination">
@@ -73,3 +72,4 @@ draft: true
 		})
 	})
 </script>
+{{ end }}
